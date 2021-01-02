@@ -1,0 +1,91 @@
+/*CSS Reset */
+*{
+	margin: 0;
+	padding: 0;
+}
+/*Logo and Image*/
+#logo{
+	margin: 26px 38px;
+}
+#logo img{
+	margin: -38px 432px;
+	height: 88px
+}
+#prize img{
+	height: 500px;
+}
+#navbar{
+	align-items: center;
+    display: flex;
+}
+#paragraph{
+	margin: 10px 45px;
+	padding: 34px 45px;
+}
+#paragraph p1{
+	font-weight:bold;
+}
+#paragraph .prize-taking img{
+	height: 450px;
+}
+#paragraph2 p{
+	padding: 14px 18px;
+}
+ #motor img{
+	 height:470px;
+ }
+ #paragraph_motor{
+	 padding: 9px 360px;
+ }
+ #discription{
+	 font-weight: bold;
+	 padding: 9px 360px;
+	 margin: 12px 38px;
+ }
+ .discription1{
+	 padding: 6px 28px;
+ }
+ #mid{
+	 padding: 0px 200px;
+ }
+ /*footer CSS*/
+ .footer{
+	 width: 100%;
+    height: 63px;
+    margin: 9px -27px;
+    background: #e63333;
+    padding: 10px 28px;
+}
+ }
+ .social-links ul{
+	 margin: 0px;
+	 padding: 0px;
+	 text-align: center;
+ }
+ .social-links ul li{
+	 display: inline-block;
+	 width:408px;
+	 height: 76px;
+	 margin: 1px 10px; 
+ }
+ .social-links ul li a{
+	 color: white;
+	 margin: 79px;
+ }
+ /*Media Query Started*/
+@media only screen and (max-width: 1358px){
+ .social-links ul li{
+	 width:340px;
+	 margin: 8px 10px; 
+ }
+ .footer{
+	width: 100%;
+    height: 63px;
+    margin: 9px -27px;
+    padding: 10px 90px;
+	 
+ }
+ #discription{
+	  padding: 1px 364px;
+	 margin: 10px -59px;
+ }
